@@ -17,7 +17,7 @@ public class App extends Application
     @Override
     public void start(Stage primaryStage) throws Exception {
             Parent root = FXMLLoader.load(getClass().getResource("/main.fxml"));
-            primaryStage.setTitle("D&D ed.3,5 char gen");
+            primaryStage.setTitle("D&D ed. 3.5 Character Generator");
             primaryStage.setScene(new Scene(root, 700, 450));
             primaryStage.show();
     }

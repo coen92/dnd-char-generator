@@ -5,7 +5,7 @@ import java.util.Map;
 public class Race {
 
     private String raceName;
-    private Map<String, Integer> attributeModifier;
+    private Map<Attribute, Integer> attributeModifier;
 
     protected Race(String raceName) {
 
@@ -17,5 +17,13 @@ public class Race {
 
     public void setRaceName(String raceName) {
         this.raceName = raceName;
+    }
+
+    public Map<Attribute, Integer> getAttributeModifier() {
+        return attributeModifier;
+    }
+
+    public void setAttributeModifier(Map<Attribute, Integer> attributeModifier) {
+        this.attributeModifier = attributeModifier;
     }
 }

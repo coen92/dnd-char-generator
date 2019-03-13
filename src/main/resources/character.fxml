@@ -1,0 +1,49 @@
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.ToggleButton?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.coen92.projects.dndchargenerator.control.CharacterController">
+    <children>
+        <GridPane hgap="15" vgap="17" AnchorPane.topAnchor="15" AnchorPane.bottomAnchor="15"
+                  AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10">
+            <Label text="Attributes:" alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0"
+                   GridPane.columnSpan="3">
+                <font>
+                    <Font size="16" name="Times New Roman bold"/>
+                </font>
+            </Label>
+
+            <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label text="Score" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Mod" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+
+            <ToggleButton fx:id="tButtonStr" prefWidth="100" text="Strength" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Label fx:id="scoreStr" text="None" GridPane.columnIndex="1" GridPane.rowIndex="2" textAlignment="CENTER"/>
+            <Label fx:id="modStr" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="2" textAlignment="CENTER" />
+
+            <ToggleButton fx:id="tButtonDex" prefWidth="100" text="Dexterity" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Label fx:id="scoreDex" text="None" GridPane.columnIndex="1" GridPane.rowIndex="3" textAlignment="CENTER"/>
+            <Label fx:id="modDex" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="3" textAlignment="CENTER"/>
+
+            <ToggleButton fx:id="tButtonCon" prefWidth="100" text="Constitution" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <Label fx:id="scoreCon" text="None" GridPane.columnIndex="1" GridPane.rowIndex="4" textAlignment="CENTER"/>
+            <Label fx:id="modCon" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="4" textAlignment="CENTER"/>
+
+            <ToggleButton fx:id="tButtonInt" prefWidth="100" text="Intelligence" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <Label fx:id="scoreInt" text="None" GridPane.columnIndex="1" GridPane.rowIndex="5" textAlignment="CENTER"/>
+            <Label fx:id="modInt" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="5" textAlignment="CENTER"/>
+
+            <ToggleButton fx:id="tButtonWis" prefWidth="100" text="Wisdom" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+            <Label fx:id="scoreWis" text="None" GridPane.columnIndex="1" GridPane.rowIndex="6" textAlignment="CENTER"/>
+            <Label fx:id="modWis" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="6" textAlignment="CENTER"/>
+
+            <ToggleButton fx:id="tButtonCha" prefWidth="100" text="Charisma" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+            <Label fx:id="scoreCha" text="None" GridPane.columnIndex="1" GridPane.rowIndex="7" textAlignment="CENTER"/>
+            <Label fx:id="modCha" text="+0" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="7" textAlignment="CENTER"/>
+        </GridPane>
+    </children>
+</AnchorPane>
