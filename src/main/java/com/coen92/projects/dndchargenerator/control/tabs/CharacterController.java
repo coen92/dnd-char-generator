@@ -1,4 +1,4 @@
-package com.coen92.projects.dndchargenerator.control;
+package com.coen92.projects.dndchargenerator.control.tabs;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

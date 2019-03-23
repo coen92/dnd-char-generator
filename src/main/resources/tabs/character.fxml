@@ -6,7 +6,7 @@
 <?import javafx.scene.control.ToggleButton?>
 
 <AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.coen92.projects.dndchargenerator.control.CharacterController">
+            fx:controller="com.coen92.projects.dndchargenerator.control.tabs.CharacterController">
     <children>
         <GridPane hgap="15" vgap="17" AnchorPane.topAnchor="15" AnchorPane.bottomAnchor="15"
                   AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10">

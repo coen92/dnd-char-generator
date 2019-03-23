@@ -33,12 +33,30 @@
     </top>
     <center>
         <TabPane fx:id="mainTabPane">
-            <Tab fx:id="tabChar" closable="false" text="Character" onSelectionChanged="#showCharacterTab"/>
-            <Tab fx:id="tabSkills" closable="false" text="Skills" />
-            <Tab fx:id="tabMagic" closable="false" text="Magic" />
-            <Tab fx:id="tabStory" closable="false" text="Story" />
-            <Tab fx:id="tabPortrait" closable="false" text="Portrait" />
-            <Tab fx:id="tabDatabase" closable="false" text="Char-Base" />
+            <tabs>
+                <Tab closable="false" text="Character">
+                    <content>
+                        <fx:include fx:id="tabChar" source="tabs/character.fxml" />
+                    </content>
+                </Tab>
+                <Tab fx:id="tabSkills" closable="false" text="Skills">
+
+                </Tab>
+                <Tab fx:id="tabMagic" closable="false" text="Magic" >
+
+                </Tab>
+                <Tab fx:id="tabStory" closable="false" text="Story" >
+
+                </Tab>
+                <Tab fx:id="tabPortrait" closable="false" text="Portrait" >
+
+                </Tab>
+                <Tab closable="false" text="Char-Base" >
+                    <content>
+                        <fx:include fx:id="tabDatabase" source="tabs/database.fxml" />
+                    </content>
+                </Tab>
+            </tabs>
         </TabPane>
     </center>
     <bottom>
