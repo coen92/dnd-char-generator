@@ -5,9 +5,8 @@ public class Profession {
     private String className;
     private int level;
 
-    public Profession(String className, int level) {
-        this.className = className;
-        this.level = level;
+    public Profession() {
+
     }
 
     public String getClassName() {

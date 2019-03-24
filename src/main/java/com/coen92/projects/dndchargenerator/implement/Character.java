@@ -16,20 +16,12 @@ public class Character {
     private Race race;
     private Sex sex;
     private Profession profession;
-    private ArrayList<Attribute> attributes = new ArrayList<>();
+    private ArrayList<Attribute> attributes;
 
     private static Character instance = new Character();
 
     private Character() {
 
-        //SET MODIFIERS FOR ALL ATTRIBUTES DEPENDING ON RACE
-        //ADD METHOD TO ROLL ALL 6 ATTRIBUTE VALUES AND CHOOSE WHICH VALUE GOES TO WHICH ATTRIBUTE
-        attributes.add(0, new Attribute("Strength", rollAttributeValue(), 0));
-        attributes.add(1, new Attribute("Dexterity", rollAttributeValue(), 0));
-        attributes.add(2, new Attribute("Constitution", rollAttributeValue(), 0));
-        attributes.add(3, new Attribute("Intelligence", rollAttributeValue(), 0));
-        attributes.add(4, new Attribute("Wisdom", rollAttributeValue(), 0));
-        attributes.add(5, new Attribute("Charisma", rollAttributeValue(), 0));
     }
 
     public String getId() {

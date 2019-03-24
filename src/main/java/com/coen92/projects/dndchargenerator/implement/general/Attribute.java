@@ -10,12 +10,6 @@ public class Attribute {
 
     }
 
-    public Attribute(String name, int value, int modifier) {
-        this.name = name;
-        this.value = value;
-        this.modifier = modifier;
-    }
-
     public String getName() {
         return name;
     }

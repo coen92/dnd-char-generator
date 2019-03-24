@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd87dff1-c614-4e6c-97f7-93f455e7cbfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/utils/ConnectionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/CharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/CharacterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/DatabaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/character.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tabs/character.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tabs/database.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/character.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/control/CharacterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/control/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/control/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/control/DatabaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/implement/general/Profession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coen92/projects/dndchargenerator/implement/general/Profession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tabs/character.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tabs/character.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,20 +56,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/utils/ConnectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -80,30 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/tabs/character.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/CharacterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="659">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,25 +86,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/tabs/database.fxml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="97" lean-forward="true" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/DatabaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -157,19 +119,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/professions/Warrior.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/api/IDice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/mechanics/Dice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/races/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/DatabaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/CharacterController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/character.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/tabs/character.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/tabs/character.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/utils/ConnectionUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java" />
       </list>
     </option>
@@ -186,7 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +190,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dndchargenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DndCharGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DndCharGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndchargenerator" type="462c0819:PsiDirectoryNode" />
               <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DndCharGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DndCharGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndchargenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DndCharGenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -247,6 +229,15 @@
               <item name="dndchargenerator" type="462c0819:PsiDirectoryNode" />
               <item name="implement" type="462c0819:PsiDirectoryNode" />
               <item name="general" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DndCharGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DndCharGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndchargenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DndCharGenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -276,13 +267,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553350658771" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553468664745" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="D:/JavaFX-MySQL-Login-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -363,14 +354,18 @@
       <workItem from="1553292443210" duration="861000" />
       <workItem from="1553346426576" duration="4000" />
       <workItem from="1553347264035" duration="3481000" />
+      <workItem from="1553350986991" duration="18000" />
+      <workItem from="1553420584179" duration="3589000" />
+      <workItem from="1553466302536" duration="2369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94694000" />
+    <option name="totallyTimeSpent" value="100670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -438,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/api/IDice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/coen92/projects/dndchargenerator/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -456,13 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -490,30 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/DatabaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -521,45 +478,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tabs/database.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/main.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/DatabaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,30 +497,102 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tabs/character.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/tabs/CharacterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tabs/database.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/api/IDice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Profession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/general/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/utils/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/implement/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coen92/projects/dndchargenerator/control/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="97" lean-forward="true" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -7,7 +7,7 @@ public class Race {
     private String raceName;
     private Map<Attribute, Integer> attributeModifier;
 
-    protected Race(String raceName) {
+    protected Race() {
 
     }
 

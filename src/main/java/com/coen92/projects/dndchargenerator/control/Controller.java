@@ -5,12 +5,16 @@ import com.coen92.projects.dndchargenerator.control.tabs.DatabaseController;
 import com.coen92.projects.dndchargenerator.implement.general.Profession;
 import com.coen92.projects.dndchargenerator.implement.general.Race;
 import com.coen92.projects.dndchargenerator.implement.general.Sex;
+import com.coen92.projects.dndchargenerator.utils.ConnectionUtil;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
@@ -54,6 +58,15 @@ public class Controller implements Initializable {
     private CharacterController characterController;
     @FXML
     private DatabaseController databaseController;
+
+    Connection myConn = null;
+    PreparedStatement myStat = null;
+    ResultSet myResSet = null;
+
+    public Controller() {
+
+        myConn = ConnectionUtil.connectDatabase();
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
